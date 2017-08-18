@@ -1,3 +1,53 @@
 body {
-  background-color: radial-gradient(circle, #eee 20%, #fff);
+  background: lightgray;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  border: 2px solid darkgray;
+  border-radius: 7px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.results_container {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+}
+
+#loggedIn {
+  border-radius: 50%;
+  color: lime;
+  font-size: 32px;
+  vertical-align: middle;
+}
+
+span {
+  margin-left: 10px;
+}
+
+#logOut {
+  background-color: #fff;
+  border: 1px solid black;
+  color: gray;
+  border-radius: 7px;
+  margin-top: 10px;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h4 {
+  align-items: center;
+}
+
+.errorMsg {
+  color: red;
 }

@@ -3,3 +3,9 @@
   <input type="password" name="password" placeholder="Password">
   <button type="submit" name="button">Submit</button>
 </form>
+
+{{#messages}}
+<p class="errorMsg">{{.}}</p>
+{{/messages}}
+{{^messages}}
+{{/messages}}
